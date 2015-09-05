@@ -54,10 +54,10 @@ double Point::getZ() {
 
 // This function computes the distance between two points
 
-  double Point::distanceTo(Point &point) {
-    double distance;
+double Point::distanceTo(Point &point) {
+  double distance;
 
-    distance = sqrt(pow((point.getX() - x), 2) + pow((point.getY() - y), 2) + pow((point.getZ() - z), 2));
+  distance = sqrt(pow((point.getX() - x), 2) + pow((point.getY() - y), 2) + pow((point.getZ() - z), 2));
 
-    return distance;
-  }
+  return distance;
+}
